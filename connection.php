@@ -18,7 +18,7 @@ $dbName   = "posts";
         $created= date("d/m/Y  h:i:sa ");
    
 
-        $sql  = "insert into posts (title,content,created) values ('$title','$content','$created') "; 
+        $sql  = "insert into post (title,content,created) values ('$title','$content','$created') "; 
 
         $result =  mysqli_query($con,$sql);
 
